@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: yourrepo/orders-service
+  tag: v1
+service:
+  type: ClusterIP
+  port: 8080
